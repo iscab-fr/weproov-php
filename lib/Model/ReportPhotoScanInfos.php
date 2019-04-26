@@ -59,10 +59,10 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
         'index' => 'int',
 'choice' => 'int',
 'description' => 'string',
-'top' => 'BigDecimal',
-'left' => 'BigDecimal',
-'height' => 'BigDecimal',
-'width' => 'BigDecimal'    ];
+'top' => 'float',
+'left' => 'float',
+'height' => 'float',
+'width' => 'float'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -307,7 +307,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Gets top
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getTop()
     {
@@ -317,7 +317,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Sets top
      *
-     * @param BigDecimal $top top
+     * @param float $top top
      *
      * @return $this
      */
@@ -331,7 +331,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Gets left
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getLeft()
     {
@@ -341,7 +341,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Sets left
      *
-     * @param BigDecimal $left left
+     * @param float $left left
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Gets height
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getHeight()
     {
@@ -365,7 +365,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Sets height
      *
-     * @param BigDecimal $height height
+     * @param float $height height
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Gets width
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getWidth()
     {
@@ -389,7 +389,7 @@ class ReportPhotoScanInfos implements ModelInterface, ArrayAccess
     /**
      * Sets width
      *
-     * @param BigDecimal $width width
+     * @param float $width width
      *
      * @return $this
      */

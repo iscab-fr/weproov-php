@@ -56,9 +56,9 @@ class Geoloc implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'longitude' => 'BigDecimal',
-'altitude' => 'BigDecimal',
-'latitude' => 'BigDecimal'    ];
+        'longitude' => 'float',
+'altitude' => 'float',
+'latitude' => 'float'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -211,7 +211,7 @@ class Geoloc implements ModelInterface, ArrayAccess
     /**
      * Gets longitude
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getLongitude()
     {
@@ -221,7 +221,7 @@ class Geoloc implements ModelInterface, ArrayAccess
     /**
      * Sets longitude
      *
-     * @param BigDecimal $longitude longitude
+     * @param float $longitude longitude
      *
      * @return $this
      */
@@ -235,7 +235,7 @@ class Geoloc implements ModelInterface, ArrayAccess
     /**
      * Gets altitude
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getAltitude()
     {
@@ -245,7 +245,7 @@ class Geoloc implements ModelInterface, ArrayAccess
     /**
      * Sets altitude
      *
-     * @param BigDecimal $altitude altitude
+     * @param float $altitude altitude
      *
      * @return $this
      */
@@ -259,7 +259,7 @@ class Geoloc implements ModelInterface, ArrayAccess
     /**
      * Gets latitude
      *
-     * @return BigDecimal
+     * @return float
      */
     public function getLatitude()
     {
@@ -269,7 +269,7 @@ class Geoloc implements ModelInterface, ArrayAccess
     /**
      * Sets latitude
      *
-     * @param BigDecimal $latitude latitude
+     * @param float $latitude latitude
      *
      * @return $this
      */
